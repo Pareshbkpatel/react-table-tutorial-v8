@@ -9,6 +9,6 @@
           : Now shows two tables Movie-Table & User-Table 
 2023-09-20: WIP
           : Prepare for deployment
-          : git init ()
-          : create repo 
-          : push to git repo
+          : git init - done
+          : First Commit - done  
+          : push to git repo using VSC auto creates remote repo
