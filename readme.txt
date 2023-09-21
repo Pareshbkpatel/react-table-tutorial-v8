@@ -11,5 +11,8 @@
           : Prepare for deployment
           : git init - done
           : First Commit - done  
-          : push to git repo using VSC auto creates remote repo
+          : Push to git repo using VSC auto creates remote repo
+          : Deployed on Netlify
+          : npm run build, drag and drop dist folder into Netlify UI
+          :
 2023-09-21: Superficial Changes
