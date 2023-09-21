@@ -1,3 +1,10 @@
+/*-----------------------------------------------------------
+   Component: BasicTable.jsx (TanSstack React-Table Version 8)
+            : Sorting and Global Filtering
+      Author: Paresh B. Patel
+  2023-09-19: Created
+  -----------------------------------------------------------*/
+
 import { useState } from 'react';
 
 import {

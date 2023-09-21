@@ -26,14 +26,14 @@ export const userCols = [
     accessorFn: row => `${row.first_name} ${row.last_name}`
   },
   {
-    header: 'First name',
+    header: 'First Name',
     accessorKey: 'first_name',
-    footer: 'First name'
+    footer: 'First Name'
   },
   {
-    header: 'Last name',
+    header: 'Last Name',
     accessorKey: 'last_name',
-    footer: 'Last name'
+    footer: 'Last Name'
   },
   {
     header: 'Email',
