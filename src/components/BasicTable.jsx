@@ -3,6 +3,7 @@
             : Sorting and Global Filtering
       Author: Paresh B. Patel
   2023-09-19: Created
+  2023-10-17: table.css activated
   -----------------------------------------------------------*/
 
 import { useState } from 'react';
@@ -15,6 +16,8 @@ import {
   getPaginationRowModel,
   getSortedRowModel
 } from '@tanstack/react-table';
+
+import './table.css'; // Styles <table> , <tr>, etc
 
 // eslint-disable-next-line react/prop-types
 export default function BasicTable({ data, columns, caption }) {
@@ -51,7 +54,7 @@ export default function BasicTable({ data, columns, caption }) {
       {/* ----- */}
       {/* Table */}
       {/* ----- */}
-      <table className="w3-table-all">
+      <table>
         <caption>{caption}</caption>
 
         <thead>
